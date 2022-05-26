@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(135deg, #882D60 10%, #AA6C39 100%);
+    background-image: linear-gradient(135deg, #B82581 10%, #E22E43 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -70,9 +70,15 @@ body {
     margin-left: 30px;
   }
   .box-form .right {
-    padding: 40px;
+    background-color: #333333;
+    padding: 40px 100px;
     overflow: hidden;
   }
+  .box-form .right h5 {
+    color: #FFFFFF;
+    margin-left: -30px;
+  }
+
   @media (max-width: 980px) {
     .box-form .right {
       width: 100%;
@@ -110,7 +116,7 @@ body {
     width: auto;
   }
   .box-form .right button {
-    float: right;
+    /*float: right;*/
     color: #fff;
     font-size: 16px;
     padding: 12px 35px;
